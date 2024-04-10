@@ -1,0 +1,26 @@
+#1. Creating a greeting for the program:
+
+print("Welcome to your personalized blog name generator.\n")
+
+#2. Ask user for their first name:
+
+firstName = input("What is your first name?\n")
+
+#3. Ask user for a verb related to the subject of their blog (e.g., traveling, dating, cooking):
+
+blogSubject = input("What is the subject of your blog as a gerund (e.g. ending in \"ing\" like traveling, dating, or cooking)\n")
+
+#4. Ask user for an adjective to precede that verb in their blog's name:
+
+sentiment = input("What adjective describes your the contents of your blog? (e.g. easy, cheap, vegan)\n")
+
+#5. Print out the blog name for the user:
+
+print("Your blog name could be " + sentiment + " " + blogSubject + " with " + firstName)
+
+
+print("Welcome to your personalized blog name generator.\n")
+firstName = input("What is your first name?\n")
+blogSubject = input("What is the subject of your blog as a gerund (e.g. ending in \"ing\" like traveling, dating, or cooking)\n")
+sentiment = input("What adjective describes your the contents of your blog? (e.g. easy, cheap, vegan)\n")
+print("Your blog name could be " + sentiment + " " + blogSubject + " with " + firstName)
