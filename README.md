@@ -1,6 +1,6 @@
 # Project 1: Blog Name Generator
 
-This tool is designed to generate a blog name based on 3 user inputs, incorporating the very basics of Python.
+This tool is designed to generate a blog name based on 3 user inputs, incorporating the very basics of Python. 
 
 ## Skills covered on Day 1:
 
