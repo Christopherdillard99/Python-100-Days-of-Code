@@ -18,6 +18,12 @@ sentiment = input("What adjective describes the contents of your blog? (e.g. eas
 
 print("Your blog name could be " + sentiment + " " + blogSubject + " with " + firstName)
 
+# As a quick overview:
+# \n moves the cursor to the next line. 
+# \"ing\" allows the ing to be treated as a text string enclosed in another pair of double quotes.
+# + was used to concatenate other strings and variables to print everything together.
+
+---
 
 print("Welcome to your personalized blog name generator.\n")
 firstName = input("What is your first name?\n")
