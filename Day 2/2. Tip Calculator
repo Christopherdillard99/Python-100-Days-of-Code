@@ -1,0 +1,13 @@
+print("Welcome to the tip calculator!\n")
+
+bill = float(input("What was the total of the bill\n"))
+
+people = int(input("How many people were eating?\n"))
+
+tip = int(input("What percentage of the bill would you like to tip?\n"))
+
+eachPays = ("{:.2f}".format((((bill * (tip / 100)) + bill) / people)))
+
+print(f"Each person will have to pay: ${eachPays}")
+
+# {:.2f} in line 9 formats the number as rounded to the 2 decimal place so that a zero appears as a cent. 
