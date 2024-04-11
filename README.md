@@ -8,7 +8,7 @@ This tool is designed to generate a blog name based on 3 user inputs, incorporat
 - Commenting
 - Debugging
 - String Manipulation
-- Variable
+- Variables
 
 ## Blog Name Generator:
-![Blog_Name_Generator](https://github.com/Christopherdillard99/Python-100-Days-of-Code/assets/121410201/4277e7df-cea8-4097-9454-78ff11ed11c0)
+![Blog_Name_Generator](https://github.com/Christopherdillard99/Python-100-Days-of-Code/assets/121410201/4277e7df-cea8-4097-9454-78ff11ed11c0.gif)
