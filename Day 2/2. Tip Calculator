@@ -10,4 +10,4 @@ eachPays = ("{:.2f}".format((((bill * (tip / 100)) + bill) / people)))
 
 print(f"Each person will have to pay: ${eachPays}")
 
-# {:.2f} in line 9 formats the number as rounded to the 2 decimal place so that a zero appears as a cent. 
+# {:.2f} in front of the .format() function in line 9 formats the final Bill as a number rounded to the 2 decimal place, so that a zero appears as a hundredth place (as a cent), even if the solution only goes to the tenth place.
