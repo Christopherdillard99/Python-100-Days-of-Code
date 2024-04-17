@@ -2,12 +2,12 @@
 
 ## Topics covered:
 - For & While Loops
-- if / else statements
-- lists
-- strings
-- ranges
-- modules
-- ASCII art
+- If / Else statements
+- Lists
+- Strings
+- Ranges
+- Modules
+- ASCII Art
 
 ## Hangman Game:
 "Pssst, the solution is quartz." is a remnant of the testing code. Comment out this print statement for real game experience.
