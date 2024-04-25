@@ -1,4 +1,4 @@
-# Day 8: Caesar Cypher:
+# Day 8: Caesar Cipher:
 
 ## Topics covered today:
 - Functions with multiple inputs
