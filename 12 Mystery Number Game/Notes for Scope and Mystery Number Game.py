@@ -184,7 +184,7 @@ bar()
 # I created my own version here without cross referencing the professor's notes:
 # My version is shown immmediately below while the professor's version is shown last. They both produce the same result with some differences.
 
-# i wanted the easy version to have random integer between 1-50 with 5 attempts, while the difficult version is 1-100 with 15 attempts. 
+# i wanted the easy version to have random integer between 1-50 with 8 attempts, while the difficult version is 1-100 with 10 attempts. 
 # this way the odds are slightly harder but not too hards, so its still reasonably challenging for the user.
 
 import random
@@ -209,12 +209,12 @@ def mystery_number_start():
     difficulty_level = input("Check your spelling. Please type either 'easy' or 'hard': ")
     
   if difficulty_level == "hard":
-    guesses_left = 15
+    guesses_left = 10
     number = random.randint(1,100)
     print("I'm thinking of a number between 1 and 100...")
     print(f"You have {guesses_left} total guesses.")
   else:
-    guesses_left = 5
+    guesses_left = 8
     number = random.randint(1,50)
     print("I'm thinking of a number between 1 and 50...")
     print(f"You have {guesses_left} total guesses.")

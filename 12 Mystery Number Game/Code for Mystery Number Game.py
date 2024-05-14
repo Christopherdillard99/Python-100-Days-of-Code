@@ -5,7 +5,7 @@
 
 # two modes: Easy and Hard
 # random number needs to be guessed using the random.randint() function for range, either 1-50 or 1-100.
-# easy difficulty means there are 5 attempts. Hard difficult = 15 attempts. 
+# easy difficulty means there are 8 attempts. Hard difficult = 10 attempts. 
 # this way the odds are slightly harder but not too hards, so its still reasonably challenging for the user.
 # each wrong guess decreases the number of attempts -= 1
 
@@ -31,12 +31,12 @@ def mystery_number_start():
     difficulty_level = input("Check your spelling. Please type either 'easy' or 'hard': ")
     
   if difficulty_level == "hard":
-    guesses_left = 15
+    guesses_left = 10
     number = random.randint(1,100)
     print("I'm thinking of a number between 1 and 100...")
     print(f"You have {guesses_left} total guesses.")
   else:
-    guesses_left = 5
+    guesses_left = 8
     number = random.randint(1,50)
     print("I'm thinking of a number between 1 and 50...")
     print(f"You have {guesses_left} total guesses.")
