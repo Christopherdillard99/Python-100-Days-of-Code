@@ -20,7 +20,7 @@ for segment in snake.segments[1:]:
             game_is_on = False
             scoreboard.game_over()
 ```
-4. Also, just learning that I could've just been entering code blocks in my README files by wrapping the code in backticks ``` this whole time... will def be doing this from now on :) oooh and you can specify the code language right after the three backticks
+4. Also, just learning that I could've been entering code blocks in my README files by wrapping the code in backticks ``` this whole time... will def be doing this from now on :) oooh and you can specify the code language right after the three backticks
 
 ## Snake Game: Part 2 (completed snake game with new segments added after each scored point):
 ![Start of the game](https://github.com/user-attachments/assets/64a6acc0-6876-4615-a81e-66ca3d8f22fb)
